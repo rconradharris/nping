@@ -5,10 +5,10 @@ nping - Ping notifier
 Send a notification when a machine becomes pingable.
 
 Let's say you're working on a server that takes a while to boot up and you
-eventually need to reboot it. Rather stare at the output of the ``ping``
-command directly, you can run ``nping`` with the same arguments you would pass
-to ``ping`` and it will generate a terminal notification when the machine
-comes back up.
+eventually need to reboot it. Rather than continuously stare at the output of the ``ping``
+command, you can run ``nping`` with the same arguments you would pass to
+``ping`` and it will generate a terminal notification when the machine comes
+back up.
 
 You can also generate a notification to your phone via the wonderful Pushover
 (https://pushover.net/) app. So feel free to leave your desk and grab a
@@ -17,8 +17,8 @@ coffee!
 Requirements
 ============
 
-terminal-notifier
-curl (if using Pushover)
+- terminal-notifier
+- curl (if using Pushover)
 
 Installation
 ============
